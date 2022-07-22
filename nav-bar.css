@@ -2,6 +2,10 @@
     /* border: 1px solid red; */
     height: 80px;
     display: flex;
+    position: sticky;
+    top: 0px;
+    background-color: rgba(248, 247, 247, 0.97);
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
    
 }
 #nav-bar>img{
@@ -189,6 +193,7 @@
 .Soft-inside-box5>div>h4>.iconify{
     margin-right: 13px;
     width: 15px;
+    color: #ff5c35;
     /* border: 1px solid red; */
 }
 .Soft-inside-box5>div>h4{
