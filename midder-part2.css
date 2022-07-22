@@ -1,0 +1,71 @@
+#midder-part2{
+    height: 350px;
+    /* border:1px solid red; */
+}
+#midder-part2>h1{
+    text-align: center;
+    margin-top: 60px;
+}
+#midder-part2>p{
+    width:42%;
+    margin: auto;                                                                                                                                                                                                                                                                                                                                                                                                                   
+    margin-top:45px;
+}
+.inside-midder-part2box{
+    /* border: 1px solid red; */
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    margin-top: 40px;
+}
+.inside-midder-part2box>div:nth-child(1){
+    /* border:1px solid red; */
+    width:25%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(255, 42, 0);
+    
+}
+.inside-midder-part2box>div:nth-child(2){
+    border:1px solid red;
+    width:30%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    text-align: center;
+    color: rgb(255, 42, 0);
+    border-radius: 5px;
+}
+.inside-midder-part2box>div:nth-child(1):hover{
+    background-color: rgba(255, 99, 71, 0.699);
+    cursor: pointer;
+}
+.inside-midder-part2box>div:nth-child(2):hover{
+    background-color: rgba(254, 222, 215, 0.488);
+    cursor: pointer;
+}
+#midder-part-A{
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: repeat(2,1fr);
+    height: 500px;
+    width: 70%;
+    gap: 30px;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+#midder-part-A>div{
+    border: 1px solid red;
+    height: 500px;
+}
